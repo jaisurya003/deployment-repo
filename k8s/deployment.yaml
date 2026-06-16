@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 388488971192.dkr.ecr.ap-south-1.amazonaws.com/myecrrepo:9-860b129
+          image: 301804611986.dkr.ecr.ap-south-1.amazonaws.com/my-ecr-repo:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
